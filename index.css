@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #202060;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container > div > h3 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-container {
+    background: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score-home, #score-guest {
+    color: red;
+    font-family: 'digital-clock-font';
+    font-size: 2rem; 
+}
+
+.buttons-container {
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.buttons-container > button {
+    color: white;
+    font-family: 'digital-clock-font';
+    background-color: transparent;
+    text-decoration: none;
+    border:0.06em solid #FFFFFF;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    cursor:pointer;
+}
